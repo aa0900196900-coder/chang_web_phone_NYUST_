@@ -1,0 +1,28 @@
+body{
+    background-color: #f0f0f0;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    border-collapse: collapse;
+    width: 55%;
+}
+th,td{
+    border: 1px solid #333;
+    padding: 10px;
+}
+a{
+    margin-left:10px;
+    font-size: 15px;
+}
+.profile-img {
+    margin-top: 40px;    /* 往上推開 30 像素（讓圖片往下移） */
+    margin-left: 20px; /* 往下推開 40 像素（讓卡片往下移） */
+    width: 150px;           /* 1. 限制圖片寬度為 200 像素 */
+    height: 200px;          /* 2. 限制圖片高度為 200 像素 */
+    
+   /* object-fit: cover;      /* 3. 關鍵：保持圖片比例，多餘的會被裁切，臉才不會變形 */
+    
+    /*border-radius: 50%;     /* 4. 選填：如果你想把照片變成「圓形大頭貼」可以加這行 */
+}
